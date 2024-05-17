@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.vig3{
+  background-image: url("../images/vig3-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.points{
+  padding: 100px 40px;
+}
+.fast{
+  font-family: "Outfit", sans-serif;
+  font-weight: 500; 
+  font-size: 24px;
+}
+.recharge{
+  font-family: "Outfit", sans-serif;
+  font-weight: 400; 
+  font-size: 20px;
+}
+
+.vig2{
+  padding: 150px 60px;
+}
+.vigo-sec{
+    padding: 150px 60px;
+}
+.vigor{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+.best-in{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 28px; 
+color:black;
+}
+.you{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500; 
+    font-size: 24px;
+
+}
+.vigoo{
+    color: #f25e53;
+}
+
+.vigor-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 20px;
+}
+.vigor-points{
+    font-family: "Outfit", sans-serif;
+    font-weight: 200; 
+    font-size: 18px;
+    color: white;
+}
+.vivid-sec{
+    padding: 0px 60px;
+    margin-top: 100px;
+}

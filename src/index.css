@@ -1,0 +1,80 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+body {
+  margin: 0;
+  font-family: "SF Pro Display", SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.App #content {
+  transition-duration: 0.3s;
+}
+
+
+.mobile-or-tablet .iphone-img {
+  display: none;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 990px) {
+  .jumbotron-section .iphone-img,
+  nav .link-styled {
+    display: none;
+  }
+
+  nav .list-styled {
+    padding-left: 0;
+  }
+
+  .jumbotron-section.wrapper,
+  .sound-section.wrapper,
+  .display-section.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .jumbotron-section .description,
+  .sound-section .description,
+  .display-section .description {
+    font-size: 14px;
+  }
+
+  .jumbotron-section.wrapper,
+  .sound-section .content,
+  .display-section.wrapper {
+    padding-top: 20px;
+  }
+
+  #webgi-canvas-container,
+  .jumbotron-section.wrapper {
+    min-height: 746px;
+    height: 100vh;
+  }
+
+  .sound-section.wrapper {
+    height: 100vh;
+  }
+
+  .sound-section .content {
+    max-width: 100%;
+  }
+}

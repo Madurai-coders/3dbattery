@@ -1,0 +1,93 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+
+
+
+
+
+.btn-arrow.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+  color:black!important;
+border: 1px solid black!important;
+}
+
+.home-page{
+  /* background-color: black; */
+    /* background-image: url('../images/bg.svg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+.navbar {
+    font-family: "Outfit", sans-serif;
+    padding: 0 60px;
+    top: 0;
+  
+    width: 100%;
+  
+  }
+.logo {
+    width: 90px;
+    height: auto;
+    padding: 0px;
+  }
+
+  .list-item li a {
+    font-family: "Outfit", sans-serif;
+
+    color:black;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .list-item {
+    list-style-type: none;
+    padding:0 0;
+    display: flex;
+    margin: 0 0;
+    position: relative;
+    left: 26px;
+  }
+  .list-item li {
+    margin: 0px 30px;
+  }
+  .vigor-sec{
+    padding: 0px 60px;
+    
+  }
+  .emp{
+    font-family: "Outfit", sans-serif;
+ font-size: 48px;
+ font-weight: 600;
+ color:black;
+ margin-top: 100px;
+  }
+  .nex{
+    font-family: "Outfit", sans-serif;
+    color: black;
+    font-size: 32px;
+    font-weight: 200;
+}
+.vig{
+    font-family: "Outfit", sans-serif;
+ font-size: 100px;
+ font-weight: bolder;
+ color: #16161681;
+ margin-top: 80px;
+  }
+  .vig-img{
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+
+  }
+
+ 

@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.contact-us{
+    z-index: -1;
+    margin-top: 100px;
+    padding: 0px 60px;
+}
+
+
+.conline{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right:200px;
+   top: -100px;
+   z-index: -1;
+
+} 
+
+.location{
+    color: #141414;
+    font-family: "Outfit", sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.35px;
+z-index: -1;
+
+}
+.inputbox{
+    background-color:rgba(241, 241, 241, 0.94);
+    border: 0px;
+    width: 80%;
+    height: 8%;
+    font-family: "Outfit", sans-serif;
+
+
+   
+  
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.place{
+color: #141414;
+font-family: "Outfit", sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.3px; 
+z-index: -1;
+
+}
+
+.address{
+    color: #141414;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.2px;
+z-index: -1;
+
+}
+
+.contactus{
+    color: #141414;
+    font-family: "Outfit", sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.35px;
+z-index: -1;
+
+}
+
+
+.message {
+    
+    width:80%;
+    
+
+    background-color:rgba(241, 241, 241, 0.94);
+    border: 0px;
+   
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: -1;
+
+}
+
+.locationsec{
+    position: relative;
+    right: 140px;
+    z-index: -1;
+
+}
+
+.submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    background-color: #F4815A;
+ 
+    border-radius: 10px;
+    color: #ffff;
+    font-family: "Outfit", sans-serif;
+font-size: 13.124px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 26px;
+
+
+
+}
+.submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
+  background-color: #F4815A;
+  font-family: "Outfit", sans-serif;
+border-radius: 26px;
+}
+
+
+/* Target the filled state of the TextField */
+.input1 .MuiFilledInput-underline {
+   
+    border-bottom: 1px solid rgb(248, 244, 244)!important;
+    border-radius: 8px;
+    font-family: "Outfit", sans-serif;
+
+  }
+  .input1 .MuiFilledInput-underline::before{
+    border-bottom: 1px solid rgb(238, 235, 235)!important; 
+    font-family: "Outfit", sans-serif;
+    z-index: -1;
+
+  }
+  
+  
+  .input1 {
+    font-family: "Outfit", sans-serif;
+
+
+    width: 80%;
+  }
+  .input1 .MuiFilledInput-input::before{
+    font-family: "Outfit", sans-serif!important;
+    z-index: -1;
+
+ 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  /* .contactussec{
+    z-index: -1;
+
+  } */
+  @media screen and (max-width:1200px){
+
+    .conline{
+      width: 100%;
+      height: auto;
+      position: relative;
+      right:180px;
+     top: -90px;
+     z-index: -1;
+  
+  }
+
+  }
+
+  @media screen and (max-width:992px){
+    .conline{
+      width: 100%;
+      height: auto;
+      position: relative;
+      right:200px;
+     top: 0px;
+     z-index: -1;
+  
+  } 
+  .input1 {
+    font-family: "Outfit", sans-serif;
+
+
+    width: 100%;
+  }
+
+  .place{
+    color: #141414;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px; 
+    z-index: -1;
+    
+    }
+    .location{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  
+  }
+    .address{
+        color: #141414;
+        font-family: "Outfit", sans-serif;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    z-index: -1;
+    
+    }
+    
+    .contactus{
+        color: #141414;
+        font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.35px;
+    z-index: -1;
+    
+    }
+    
+    
+    .message {
+        
+        width:80%;
+        
+    
+        background-color:rgba(241, 241, 241, 0.94);
+        border: 0px;
+       
+        font-family: "Outfit", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        z-index: -1;
+    
+    }
+    .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
+      background-color: #F4815A;
+   
+      border-radius: 10px;
+      color: #ffff;
+      font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 26px;
+  
+  
+  
+  }
+  .locationsec{
+    position: relative;
+    right: 160px;
+    z-index: -1;
+
+}
+    
+  }
+
+
+  @media screen and (max-width:800px){
+    .conline{
+      width: 100%;
+      height: auto;
+      position: relative;
+      right:150px;
+     top: 0px;
+     z-index: -1;
+  
+  } 
+  .input1 {
+    font-family: "Outfit", sans-serif;
+
+
+    width: 100%;
+  }
+
+  .place{
+    color: #141414;
+    font-family: "Outfit", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px; 
+    z-index: -1;
+    
+    }
+    .location{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  
+  }
+    .address{
+        color: #141414;
+        font-family: "Outfit", sans-serif;
+        font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    z-index: -1;
+    
+    }
+    
+    .contactus{
+        color: #141414;
+        font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.35px;
+    z-index: -1;
+    
+    }
+    
+    
+    .message {
+        
+        width:80%;
+        
+    
+        background-color:rgba(241, 241, 241, 0.94);
+        border: 0px;
+       
+        font-family: "Outfit", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        z-index: -1;
+    
+    }
+    .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
+      background-color: #F4815A;
+   
+      border-radius: 10px;
+      color: #ffff;
+      font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 26px;
+  
+  
+  
+  }
+  .locationsec{
+    position: relative;
+    right: 160px;
+    z-index: -1;
+
+}
+    
+  }
+
+  /*phone size*/
+
+
+  @media screen and (max-width:768px){
+    .contact-us{
+      z-index: -1;
+      margin-top: 100px;
+      padding: 0px 40px;
+  }
+  
+  
+
+  
+  .location{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  text-align: center;
+  
+  }
+ 
+  
+  .place{
+  color: #141414;
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px; 
+  z-index: -1;
+  text-align: center;
+  
+  }
+  
+  .address{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+      font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  z-index: -1;
+  text-align: center;
+  }
+  
+  .contactus{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  
+  }
+  
+  
+  .message {
+      
+      width:80%;
+      
+  
+      background-color:rgba(241, 241, 241, 0.94);
+      border: 0px;
+     
+      font-family: "Outfit", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      z-index: -1;
+  
+  }
+  
+  .locationsec{
+      right:0px;
+      z-index: -1;
+  
+  }
+  
+  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
+      background-color: #F4815A;
+   
+      border-radius: 10px;
+      color: #ffff;
+      font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 20px;
+  
+  
+  
+  }
+  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #F4815A;
+    font-family: "Outfit", sans-serif;
+  border-radius: 26px;
+  }
+  
+  
+  /* Target the filled state of the TextField */
+  .input1 .MuiFilledInput-underline {
+     
+      border-bottom: 1px solid rgb(248, 244, 244)!important;
+      border-radius: 8px;
+      font-family: "Outfit", sans-serif;
+  
+    }
+    .input1 .MuiFilledInput-underline::before{
+      border-bottom: 1px solid rgb(238, 235, 235)!important; 
+      font-family: "Outfit", sans-serif;
+      z-index: -1;
+  
+    }
+    
+    
+    .input1 {
+      font-family: "Outfit", sans-serif;
+  
+  
+      width: 100%;
+    }
+    .input1 .MuiFilledInput-input::before{
+      font-family: "Outfit", sans-serif!important;
+      z-index: -1;
+  
+   
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  @media screen and (max-width:576px){
+    .contact-us{
+      z-index: -1;
+      margin-top: 100px;
+      padding: 0px 20px;
+  }
+  
+  
+
+  
+  .location{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  text-align: center;
+  
+  }
+ 
+  
+  .place{
+  color: #141414;
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px; 
+  z-index: -1;
+  text-align: center;
+  
+  }
+  
+  .address{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+      font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  z-index: -1;
+  text-align: center;
+  }
+  
+  .contactus{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  
+  }
+  
+  
+  .message {
+      
+      width:80%;
+      
+  
+      background-color:rgba(241, 241, 241, 0.94);
+      border: 0px;
+     
+      font-family: "Outfit", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      z-index: -1;
+  
+  }
+  
+  .locationsec{
+    position: none;
+      right:0px;
+      z-index: -1;
+  
+  }
+  
+  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
+      background-color: #F4815A;
+   
+      border-radius: 10px;
+      color: #ffff;
+      font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 20px;
+  
+  
+  
+  }
+  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #F4815A;
+    font-family: "Outfit", sans-serif;
+  border-radius: 26px;
+  }
+  
+  
+  /* Target the filled state of the TextField */
+  .input1 .MuiFilledInput-underline {
+     
+      border-bottom: 1px solid rgb(248, 244, 244)!important;
+      border-radius: 8px;
+      font-family: "Outfit", sans-serif;
+  
+    }
+    .input1 .MuiFilledInput-underline::before{
+      border-bottom: 1px solid rgb(238, 235, 235)!important; 
+      font-family: "Outfit", sans-serif;
+      z-index: -1;
+  
+    }
+    
+    
+    .input1 {
+      font-family: "Outfit", sans-serif;
+  
+  
+      width: 100%;
+    }
+    .input1 .MuiFilledInput-input::before{
+      font-family: "Outfit", sans-serif!important;
+      z-index: -1;
+  
+   
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  @media screen and (max-width:360px){
+    .contact-us{
+      z-index: -1;
+      margin-top: 100px;
+      padding: 0px 10px;
+  }
+  
+  
+
+  
+  .location{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  text-align: center;
+  
+  }
+ 
+  
+  .place{
+  color: #141414;
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px; 
+  z-index: -1;
+  text-align: center;
+  
+  }
+  
+  .address{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+      font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  z-index: -1;
+  text-align: center;
+  }
+  
+  .contactus{
+      color: #141414;
+      font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  z-index: -1;
+  
+  }
+  
+  
+  .message {
+      
+      width:80%;
+      
+  
+      background-color:rgba(241, 241, 241, 0.94);
+      border: 0px;
+     
+      font-family: "Outfit", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      z-index: -1;
+  
+  }
+  
+  .locationsec{
+    position: none;
+      right:0px;
+      z-index: -1;
+  
+  }
+  
+  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
+      background-color: #F4815A;
+   
+      border-radius: 10px;
+      color: #ffff;
+      font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 20px;
+  
+  
+  
+  }
+  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #F4815A;
+    font-family: "Outfit", sans-serif;
+  border-radius: 26px;
+  }
+  
+  
+  /* Target the filled state of the TextField */
+  .input1 .MuiFilledInput-underline {
+     
+      border-bottom: 1px solid rgb(248, 244, 244)!important;
+      border-radius: 8px;
+      font-family: "Outfit", sans-serif;
+  
+    }
+    .input1 .MuiFilledInput-underline::before{
+      border-bottom: 1px solid rgb(238, 235, 235)!important; 
+      font-family: "Outfit", sans-serif;
+      z-index: -1;
+  
+    }
+    
+    
+    .input1 {
+      font-family: "Outfit", sans-serif;
+  
+  
+      width: 100%;
+    }
+    .input1 .MuiFilledInput-input::before{
+      font-family: "Outfit", sans-serif!important;
+      z-index: -1;
+  
+   
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
