@@ -1,13 +1,13 @@
 import React from 'react';
-import "../assets/css/vig.css";
-import Logo from "../assets/images/logo.svg";
-import Vig1 from "../assets/images/vig-detail.svg";
+import "../../assets/css/vig.css";
+import Logo from "../../assets/images/logo.svg";
+import Vig1 from "../../assets/images/vig-detail.svg";
 import Button from '@mui/material/Button';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import EastIcon from '@mui/icons-material/East';
 
-import B1 from '../components/b1';
-function Vig() {
+import B1 from '../3dmodel/b1';
+function Landing() {
   return (
     <>
       <div className="home-page">
@@ -53,10 +53,10 @@ function Vig() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
-              {/* <B1/> */}
+            <div className="col-5 pt-5">
+              <B1 />
             </div>
-            <div className="col-4">
+            <div className="col-3">
               <h1 className="vig">VIGOR</h1>
               <img src={Vig1} alt="detail" className="vig-img" />
             </div>
@@ -67,4 +67,4 @@ function Vig() {
   );
 }
 
-export default Vig;
+export default Landing;

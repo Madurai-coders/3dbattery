@@ -1,7 +1,7 @@
-import "../assets/css/contact.css";
+import "../../assets/css/contact.css";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Conline from "../assets/images/contact.png";
+import Conline from "../../assets/images/contact.png";
 
 import { useMediaQuery } from "react-responsive";
 

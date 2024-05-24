@@ -1,33 +1,28 @@
 import './App.css';
-import Vig from './components/vig';
-// import B1 from './components/b1';
-import Bt from './components/bt';
-// import Display from './components/display';
-import Viewer from './components/viewer';
-import Vig3 from './components/vig-3';
-import Card from './components/card';
-import Vig2 from './components/vig-2';
-import Contact from './components/contact';
+import Landing from './components/landing-page/land';
+import Bt from './components/vigsec-1/vig-1.js';
+import Vig3 from './components/vigsec-3/vig-3.js';
+import Card from './components/our-strenght/card.js';
+import Vig2 from './components/vigsec-2/vig-2.js';
+import Contact from './components/contact/contact.js';
 import { useRef } from 'react';
 function App() {
 
   const contentRef = useRef(null);
-  const viewerRef = useRef(null);
 
 
   return (
    <>
-   {/* <B1/>
-   <Card/> */}
+ 
 
 <div ref={contentRef} id="content">
-        <Vig />
+        <Landing />
         <Bt />
         <Vig2 />
         <Vig3 />
       </div>
 
-        <Viewer contentRef={contentRef} ref={viewerRef} />
+        {/* <Viewer contentRef={contentRef} ref={viewerRef} /> */}
     
 
       <Card />
