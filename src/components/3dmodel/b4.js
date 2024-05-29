@@ -26,7 +26,7 @@ function B4() {
   });
 
   const { rotation } = useSpring({
-    rotation: inView ? [0, Math.PI / 5, 0] : [0, 0, 0],
+    rotation: inView ? [0, -Math.PI / 5, 0] : [0, 0, 0],
   });
 
   return (
